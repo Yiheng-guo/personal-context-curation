@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-10-02",
+  "memories": [
+    {
+      "id": "M01",
+      "subject": "user",
+      "key": "project_language",
+      "value": "中文",
+      "kind": "fact",
+      "source": "synthetic-user-request:1",
+      "observed_at": "2026-10-02",
+      "consent": true,
+      "sensitive": false
+    },
+    {
+      "id": "M02",
+      "subject": "third_party",
+      "key": "birth_info",
+      "value": "占位第三方资料，不含真实私人信息",
+      "kind": "fact",
+      "source": "synthetic-third-party:1",
+      "observed_at": "2026-10-02",
+      "consent": false,
+      "sensitive": true
+    },
+    {
+      "id": "M03",
+      "subject": "user",
+      "key": "project_language",
+      "value": "英文",
+      "kind": "fact",
+      "source": "synthetic-user-request:1",
+      "observed_at": "2026-10-02",
+      "consent": true,
+      "sensitive": false
+    }
+  ]
+}

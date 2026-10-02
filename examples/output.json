@@ -1,0 +1,52 @@
+{
+  "status": "proposal_only",
+  "proposals": [
+    {
+      "id": "M01",
+      "subject": "user",
+      "key": "project_language",
+      "value": "中文",
+      "kind": "fact",
+      "source": "synthetic-user-request:1",
+      "observed_at": "2026-10-02",
+      "consent": true,
+      "sensitive": false,
+      "action": "candidate",
+      "reasons": []
+    },
+    {
+      "id": "M02",
+      "subject": "third_party",
+      "key": "birth_info",
+      "value": "占位第三方资料，不含真实私人信息",
+      "kind": "fact",
+      "source": "synthetic-third-party:1",
+      "observed_at": "2026-10-02",
+      "consent": false,
+      "sensitive": true,
+      "action": "exclude",
+      "reasons": [
+        "third_party_subject",
+        "sensitive",
+        "no_explicit_retention_consent"
+      ]
+    }
+  ],
+  "candidate_context": [
+    {
+      "id": "M01",
+      "subject": "user",
+      "key": "project_language",
+      "value": "中文",
+      "kind": "fact",
+      "source": "synthetic-user-request:1",
+      "observed_at": "2026-10-02",
+      "consent": true,
+      "sensitive": false,
+      "action": "candidate",
+      "reasons": []
+    }
+  ],
+  "writes_performed": false,
+  "limits": "Does not write platform memory. Apply approved changes through its authorized memory mechanism; deletion must cover copies and retrieval indexes."
+}
